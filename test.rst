@@ -1,6 +1,7 @@
 .. contents:: Table of Contents
 
-.. sectnum::
+.. toctree::
+	:hidden:
 
 **Singleton Design Pattern**
 
