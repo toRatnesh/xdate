@@ -1,10 +1,12 @@
 
 .. contents:: Table of Contents
 
-.. sectnum:
+
 
 Singleton Design Pattern
 ========================
+
+.. sectnum:
 
 Intent
 ------
