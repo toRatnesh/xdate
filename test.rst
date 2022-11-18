@@ -2,8 +2,9 @@
 
 .. sectnum::
 
-Singleton Design Pattern
-========================
+**Singleton Design Pattern**
+============================
+
 
 Intent
 ------
