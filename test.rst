@@ -3,7 +3,7 @@
 .. sectnum::
 
 **Singleton Design Pattern**
-============================
+
 
 
 Intent
