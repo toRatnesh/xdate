@@ -1,7 +1,6 @@
 .. contents:: Table of Contents
 
-.. toctree::
-	:hidden:
+.. sectnum::
 
 **Singleton Design Pattern**
 
@@ -14,12 +13,12 @@ Ensure a class has only one instance, and provide a global point of access to it
 
 Motivation
 ----------
-It is important for some classes to have exactly one instance.
+``It is important for some classes to have exactly one instance.
 How do we ensure that a class has only one instance and that the instance is easily accessible? 
 A global variable makes an object accessible, but it does not keep you from instantiating multiple objects.
 A better solution is to make the class itself responsible for keeping track of its sole instance.
 The class can ensure that no other instance can be created (by intercepting requests to create new objects), and it can provide a way to access the instance. 
-This is the Singleton pattern.
+This is the Singleton pattern.``
 
 
 Applicability
@@ -60,14 +59,14 @@ It avoids polluting the name space with global variables that store sole instanc
 
 More flexible than class operations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Another way to package a singleton's functionality is to use class operations (that is, static member functions in C++).
+``Another way to package a singleton's functionality is to use class operations (that is, static member functions in C++).
 However, this makes it hard to change a design to allow more than one instance of a class.
-Moreover, static member functions in C++ are never virtual, so subclasses cannot override them polymorphically.
+Moreover, static member functions in C++ are never virtual, so subclasses cannot override them polymorphically.``
 
 Permits refinement of operations and representation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-The Singleton class may be subclassed, and it's easy to configure an application with an instance of this extended class. 
-You can configure the application with an instance of the class you need at run-time.
+``The Singleton class may be subclassed, and it's easy to configure an application with an instance of this extended class. 
+You can configure the application with an instance of the class you need at run-time.``
 
 Permits a variable number of instances
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
