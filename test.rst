@@ -47,7 +47,7 @@ Clients access a Singleton instance solely through Singleton's Instance operatio
 
 Consequences
 ------------
-.. sectnum::
+
 Controlled access to sole instance
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The Singleton class encapsulates its sole instance, it can have strict control over how and when clients access it.
