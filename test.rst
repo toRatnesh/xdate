@@ -3,7 +3,7 @@
 
 
 Singleton Design Pattern
-########################
+========================
 
 Intent
 ------
@@ -70,3 +70,4 @@ You can configure the application with an instance of the class you need at run-
 Permits a variable number of instances
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The pattern makes it easy to change your mind and allow more than one instance of the Singleton class.
+
