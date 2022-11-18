@@ -1,7 +1,7 @@
 
 .. contents:: Table of Contents
 
-************************
+
 Singleton Design Pattern
 ************************
 
