@@ -1,9 +1,11 @@
 
 .. contents:: Table of Contents
 
+.. toctree::
+	:numbered:
 
 Singleton Design Pattern
-************************
+========================
 
 Intent
 ------
